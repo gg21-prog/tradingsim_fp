@@ -1,0 +1,31 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# training artefacts
+wandb/
+runs/
+
+# report / docs / presentations (not needed for the app)
+report/
+*.pptx
+*.doc
+*.docx
+
+# loose screenshots / training plots in root
+training_phase1sac.png
+evalsnep_phase1sac.png
+ep_phase2sac.png
+ss1.png
+ss2.png
+evaluation/plots/
+
+# empty model run folder
+models/phase2/4z4i6wyf/
+
+# misc
+.DS_Store

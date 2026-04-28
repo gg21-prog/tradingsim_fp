@@ -1,5 +1,7 @@
 # trading-sim
 
+**[Live demo: tradingsimfp.streamlit.app](https://tradingsimfp.streamlit.app/)**
+
 A multi-agent trading simulation where a market maker learns to survive against informed traders using reinforcement learning.
 
 The core problem is adverse selection: market makers earn money by quoting bid/ask spreads, but some traders have private information and systematically take the other side of good trades. The market maker cannot see who is informed. It has to figure it out from behavior.

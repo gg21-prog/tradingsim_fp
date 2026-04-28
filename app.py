@@ -255,6 +255,13 @@ with st.sidebar:
                 f'{p1_dot} phase 1 model<br>{p2_dot} phase 2 model</div>',
                 unsafe_allow_html=True)
 
+    st.markdown("---")
+    st.markdown(f'<a href="https://tradingsimfp.streamlit.app/" target="_blank" '
+                f'style="display:block;text-align:center;background:{C["pink1"]};color:#fff;'
+                f'font-weight:700;font-size:12px;padding:7px 12px;border-radius:6px;'
+                f'text-decoration:none;">🌸 tradingsimfp.streamlit.app</a>',
+                unsafe_allow_html=True)
+
 # ── tabs ──────────────────────────────────────────────────────────────────────
 t1, t2, t3, t4, t5 = st.tabs([
     "📈  episode replay",
